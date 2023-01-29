@@ -2,5 +2,5 @@ experiment
 dist
 node_modules
 devAssets
-
+pnpm-lock.yaml
 .DS_Store

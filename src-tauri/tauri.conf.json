@@ -10,6 +10,9 @@
     "beforeBuildCommand": "cd cinny && npm run build"
   },
   "tauri": {
+    "systemTray": {
+      "iconPath": "./icons/icon.ico"
+    },
     "bundle": {
       "active": true,
       "targets": "all",
@@ -51,7 +54,7 @@
     "updater": {
       "active": true,
       "endpoints": [
-          "https://github.com/cinnyapp/cinny-desktop/releases/download/tauri/release.json"
+        "https://github.com/cinnyapp/cinny-desktop/releases/download/tauri/release.json"
       ],
       "dialog": true,
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDE2NDc3NDBGMTAzNTk1NUYKUldSZmxUVVFEM1JIRnRuMjVRTkFOQ21lUFI5KzRMU0s4OWtBS1RNRUVCNE9LcE9GcExNZ2M2NHoK"
